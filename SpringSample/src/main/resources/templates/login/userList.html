@@ -23,6 +23,8 @@
 				<td th:text="${user.userId}"></td>
 				<td th:text="${user.userName}"></td>
 				<!-- ポイント１：日付型のフォーマット -->
+				<!-- ポイント１：日付型のフォーマット -->
+				<!-- ポイント１：日付型のフォーマット -->
 				<td th:text="${#dates.format(user.birthday, 'YYYY/MM/dd')}"></td>
 				<td th:text="${user.age}"></td>
 				<td th:text="${user.marriage}?'既婚':'未婚'"></td>
